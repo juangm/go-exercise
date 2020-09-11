@@ -18,5 +18,5 @@
 
 ## Bonus points
 
-- [] Add string trimming and cleanup to help ensure correct answers
-- [] Add new flag to shuffle teh quiz order each time (for example: --random)
+- [ ] Add string trimming and cleanup to help ensure correct answers
+- [ ] Add new flag to shuffle teh quiz order each time (for example: --random)
