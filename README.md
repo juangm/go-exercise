@@ -10,5 +10,5 @@
 ## Work To Do
 
 - [x] [go-quiz](go-quiz/README.md)
-- [ ] go-urlshort
+- [ ] [go-urlshort](go-urlshort/README.md)
 - [ ] go-adventure

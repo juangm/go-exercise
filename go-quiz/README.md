@@ -1,7 +1,7 @@
 # GO - QUIZ GAME
 
 ![Status](https://img.shields.io/badge/Status-Done-green)
-![Bonus](https://img.shields.io/badge/Bonus-InProgress-orange)
+![Bonus](https://img.shields.io/badge/Bonus-OnHold-blue)
 
 ## Description
 
