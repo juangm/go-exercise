@@ -9,6 +9,6 @@
 
 ## Work To Do
 
-- [x] go-quiz
+- [x] [go-quiz](go-quiz/README.md)
 - [ ] go-urlshort
 - [ ] go-adventure
