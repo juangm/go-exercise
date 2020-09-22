@@ -1,6 +1,6 @@
 # GO - URL SHORTENER
 
-![Status](https://img.shields.io/badge/Status-InProgres-orange)
+![Status](https://img.shields.io/badge/Status-Done-green)
 ![Bonus](https://img.shields.io/badge/Bonus-OnHold-blue)
 
 ## Description
@@ -11,12 +11,13 @@
 
 ## Work To Do
 
-- [ ] Implement the stubbed method `MAPHandler` in `handler.go`
-- [ ] Implement the stubbed method `YAMLHandler` in `handler.go`
-- [ ] Use the package [yaml](gopkg.in/yaml.v2) to parse the YAML.
+- [x] Implement the stubbed method `MAPHandler` in `handler.go`
+- [x] Implement the stubbed method `YAMLHandler` in `handler.go`
+- [x] Use the package [yaml](gopkg.in/yaml.v2) to parse the YAML.
 
 ## Bonus points
 
 - [ ] Update the `main/main.go` file to accept YAML files as flag.
 - [ ] Build `JSONHandler` for the same purpose, but reads from JSON data.
 - [ ] Build a handler that reads from a database (Up to to you to use `BoltDB`, `SQL`, etc)
+- [ ] Implement small test suite
