@@ -10,5 +10,21 @@
 ## Work To Do
 
 - [x] [go-quiz](go-quiz/README.md)
-- [ ] [go-urlshort](go-urlshort/README.md)
+- [x] [go-urlshort](go-urlshort/README.md)
 - [ ] go-adventure
+- [ ] go-htmlParser
+- [ ] go-sitemapBuild
+- [ ] go-hackerRank
+- [ ] go-cliTask
+- [ ] go-phoneNumber
+- [ ] go-cards
+- [ ] go-blackjack
+- [ ] go-blackjackAI
+- [ ] go-fileRename
+- [ ] go-quietHN
+- [ ] go-recoverMiddleware
+- [ ] go-cliTwitterContest
+- [ ] go-cliSecretsAPI
+- [ ] go-imgTransform
+- [ ] go-buildImages
+- [ ] go-buildPDF
