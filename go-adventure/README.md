@@ -11,6 +11,7 @@
 - Stories will be provided via a JSON file - [example](https://github.com/gophercises/cyoa/blob/master/gopher.json)
 - Stories can be cyclical
 - All stories will have a story arc named `intro` (starting point)
+- Matt Holt's JSON-to-Go is a really handy tool when working with [JSON in Go!](https://mholt.github.io/json-to-go/)
 
 ## Work To Do
 
