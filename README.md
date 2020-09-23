@@ -11,7 +11,7 @@
 
 - [x] [go-quiz](go-quiz/README.md)
 - [x] [go-urlshort](go-urlshort/README.md)
-- [ ] go-adventure
+- [ ] [go-adventure](go-adventure/README.md)
 - [ ] go-htmlParser
 - [ ] go-sitemapBuild
 - [ ] go-hackerRank
