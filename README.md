@@ -11,10 +11,10 @@
 
 - [x] [go-quiz](go-quiz/README.md)
 - [x] [go-urlshort](go-urlshort/README.md)
-- [ ] [go-adventure](go-adventure/README.md)
+- [x] [go-adventure](go-adventure/README.md)
 - [ ] go-htmlParser
 - [ ] go-sitemapBuild
-- [ ] go-hackerRank
+- [ ] go-hackerRank(go-hackerRank/README.md)
 - [ ] go-cliTask
 - [ ] go-phoneNumber
 - [ ] go-cards
