@@ -15,9 +15,10 @@
 
 ## Work To Do
 
-- [ ] Use the `html/template` package to create your HTML pages
-- [ ] Create `http.Handler` to handle web requests (instead of a handler function)
-- [ ] Use the `encoding/json` package to decode the JSON file
+- [x] Use the `html/template` package to create your HTML pages
+- [x] Create `http.Handler` to handle web requests (instead of a handler function)
+- [x] Use the `encoding/json` package to decode the JSON file
+- [x] Create custom templates
 
 ## Bonus points
 
