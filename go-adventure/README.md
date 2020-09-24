@@ -1,6 +1,6 @@
 # GO - CHOOSE YOUR OWN ADVENTURE
 
-![Status](https://img.shields.io/badge/Status-InProgress-orange)
+![Status](https://img.shields.io/badge/Status-Done-green)
 ![Bonus](https://img.shields.io/badge/Bonus-OnHold-blue)
 
 ## Description
