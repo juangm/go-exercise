@@ -6,12 +6,14 @@
 
 - Each folder contain a GOLANG exercise
 - Exercises are from [gophercises](https://gophercises.com/)
+- Katas are from [introduction-to-go](https://github.com/davecheney/introduction-to-go)
 
 ## Work To Do
 
 - [x] [go-quiz](go-quiz/README.md)
 - [x] [go-urlshort](go-urlshort/README.md)
 - [x] [go-adventure](go-adventure/README.md)
+- [ ] [go-katas](go-katas/README.md)
 - [ ] go-htmlParser
 - [ ] go-sitemapBuild
 - [ ] go-hackerRank(go-hackerRank/README.md)
