@@ -1,14 +1,15 @@
 package jsonenc
 
+// Person type
 type Person struct {
-	Firstname  string // should be encoded as 'first'
-	Middlename string // should be encoded as 'middle', and not present if blank
-	Lastname   string // should be encoded as 'last'
+	Firstname  string `json:"first"`
+	Middlename string `json:"middle,omitempty"`
+	Lastname   string `json:"last"`
 
-	SSID int64 // should not be encoded
+	SSID int64 `json:"-"`
 
-	City    string // should be encoded as 'city' and not present if missing
-	Country string // should be encoded as 'country'
+	City    string `json:"city,omitempty"`
+	Country string `json:"country"`
 
-	Telephone int64 // should be encoded as 'tel', the value should be a string, not a number
+	Telephone int64 `json:"tel,string"`
 }

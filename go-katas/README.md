@@ -4,7 +4,7 @@
 
 ## Description
 
-- Katas from the presentation [link](https://talks.godoc.org/github.com/davecheney/introduction-to-go/introduction-to-go.slide)
+- Katas from the presentation [link](https://talks.godoc.org/github.com/davecheney/introduction-to-go/introduction-to-go.slide#109)
 
 ## WorkToDo
 
