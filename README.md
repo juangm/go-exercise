@@ -13,8 +13,8 @@
 - [x] [go-quiz](go-quiz/README.md)
 - [x] [go-urlshort](go-urlshort/README.md)
 - [x] [go-adventure](go-adventure/README.md)
-- [ ] [go-katas](go-katas/README.md)
-- [ ] go-htmlParser
+- [x] [go-katas](go-katas/README.md)
+- [ ] [go-htmlParser](go-htmlparser/README.md)
 - [ ] go-sitemapBuild
 - [ ] go-hackerRank(go-hackerRank/README.md)
 - [ ] go-cliTask

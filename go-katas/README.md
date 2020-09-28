@@ -1,6 +1,6 @@
 # GO - KATAS
 
-![Status](https://img.shields.io/badge/Status-InProgress-orange)
+![Status](https://img.shields.io/badge/Status-Done-green)
 
 ## Description
 

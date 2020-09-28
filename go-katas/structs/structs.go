@@ -9,7 +9,7 @@ type Pet struct {
 // MyPet function
 func MyPet() Pet {
 	var p Pet
-	p.Name = "Frankies"
+	p.Name = "Frankie"
 	p.Kind = "dog"
 	return p
 }
