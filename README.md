@@ -14,7 +14,7 @@
 - [x] [go-urlshort](go-urlshort/README.md)
 - [x] [go-adventure](go-adventure/README.md)
 - [x] [go-katas](go-katas/README.md)
-- [x] [go-htmlParser](go-htmlparser/README.md)
+- [x] [go-htmlParser](go-htmlParser/README.md)
 - [ ] go-sitemapBuild
 - [ ] go-hackerRank(go-hackerRank/README.md)
 - [ ] go-cliTask

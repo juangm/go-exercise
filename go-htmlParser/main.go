@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	file := flag.String("file", "./html_fixtures/test1.htm", "The Path to the HTML file to be parsed.")
+	file := flag.String("file", "./link/testdata/test1.htm", "The Path to the HTML file to be parsed.")
 	flag.Parse()
 
 	htmlfile, err := link.GetHTMLFile(*file)

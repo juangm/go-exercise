@@ -21,7 +21,7 @@ func compareLinks(a, b []Link) bool {
 }
 
 func TestParser1(t *testing.T) {
-	htmlfile, err := GetHTMLFile("../html_fixtures/test1.htm")
+	htmlfile, err := GetHTMLFile("testdata/test1.htm")
 	if err != nil {
 		t.Fatalf("Error when opening the file: %d", err)
 	}
@@ -43,7 +43,7 @@ func TestParser1(t *testing.T) {
 }
 
 func TestParser2(t *testing.T) {
-	htmlfile, err := GetHTMLFile("../html_fixtures/test2.htm")
+	htmlfile, err := GetHTMLFile("testdata/test2.htm")
 	if err != nil {
 		t.Fatalf("Error when opening the file: %d", err)
 	}
@@ -69,7 +69,7 @@ func TestParser2(t *testing.T) {
 }
 
 func TestParser3(t *testing.T) {
-	htmlfile, err := GetHTMLFile("../html_fixtures/test3.htm")
+	htmlfile, err := GetHTMLFile("testdata/test3.htm")
 	if err != nil {
 		t.Fatalf("Error when opening the file: %d", err)
 	}
@@ -99,7 +99,7 @@ func TestParser3(t *testing.T) {
 }
 
 func TestParser4(t *testing.T) {
-	htmlfile, err := GetHTMLFile("../html_fixtures/test4.htm")
+	htmlfile, err := GetHTMLFile("testdata/test4.htm")
 	if err != nil {
 		t.Fatalf("Error when opening the file: %d", err)
 	}
