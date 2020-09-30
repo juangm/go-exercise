@@ -11,14 +11,13 @@
 
 ## Work To Do
 
-- [x] Use flags to add parameters
-- [x] Read from a CSV file and store in a type struct problems
-- [x] Compare answer from user in CLI with CSV data
-- [x] Keep track of correct answers and display results
-- [x] Add limited time to answer the questions (default 30 seconds) and a flag to modify the limit
+- [ ] Start the program with the URL provided by flag
+- [ ] Output of the program should be in XML
+- [ ] Be aware that links can be cyclical
+- [ ] Use `net/http` to initiate GET request to each page
+- [ ] Use `encoding/xml` to print out the XML output at the end
+- [ ] Use `flag` to parse user provided flags
 
 ## Bonus points
 
-- [ ] Add string trimming and cleanup to help ensure correct answers
-- [ ] Add new flag to shuffle teh quiz order each time (for example: --random)
-- [ ] Implement small test suite
+- [ ] Add in `depth` flag that defines the maximum number of links to follow when building the sitemap.
