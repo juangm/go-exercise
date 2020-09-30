@@ -20,17 +20,24 @@ func compareLinks(a, b []Link) bool {
 	return true
 }
 
-func TestParser1(t *testing.T) {
-	htmlfile, err := GetHTMLFile("testdata/test1.htm")
+func parseFile(pathfile string) ([]Link, error) {
+	htmlfile, err := GetHTMLFile(pathfile)
 	if err != nil {
-		t.Fatalf("Error when opening the file: %d", err)
+		return nil, err
 	}
 	r := strings.NewReader(htmlfile)
 	links, err := Parse(r)
 	if err != nil {
+		return nil, err
+	}
+	return links, nil
+}
+
+func TestParser1(t *testing.T) {
+	got, err := parseFile("testdata/test1.htm")
+	if err != nil {
 		t.Fatalf("Error when parsing the string: %d", err)
 	}
-	got := links
 	want := []Link{
 		Link{
 			Href: "/other-page",
@@ -43,16 +50,10 @@ func TestParser1(t *testing.T) {
 }
 
 func TestParser2(t *testing.T) {
-	htmlfile, err := GetHTMLFile("testdata/test2.htm")
-	if err != nil {
-		t.Fatalf("Error when opening the file: %d", err)
-	}
-	r := strings.NewReader(htmlfile)
-	links, err := Parse(r)
+	got, err := parseFile("testdata/test2.htm")
 	if err != nil {
 		t.Fatalf("Error when parsing the string: %d", err)
 	}
-	got := links
 	want := []Link{
 		Link{
 			Href: "https://www.twitter.com/joncalhoun",
@@ -69,16 +70,10 @@ func TestParser2(t *testing.T) {
 }
 
 func TestParser3(t *testing.T) {
-	htmlfile, err := GetHTMLFile("testdata/test3.htm")
-	if err != nil {
-		t.Fatalf("Error when opening the file: %d", err)
-	}
-	r := strings.NewReader(htmlfile)
-	links, err := Parse(r)
+	got, err := parseFile("testdata/test3.htm")
 	if err != nil {
 		t.Fatalf("Error when parsing the string: %d", err)
 	}
-	got := links
 	want := []Link{
 		Link{
 			Href: "#",
@@ -99,16 +94,10 @@ func TestParser3(t *testing.T) {
 }
 
 func TestParser4(t *testing.T) {
-	htmlfile, err := GetHTMLFile("testdata/test4.htm")
-	if err != nil {
-		t.Fatalf("Error when opening the file: %d", err)
-	}
-	r := strings.NewReader(htmlfile)
-	links, err := Parse(r)
+	got, err := parseFile("testdata/test4.htm")
 	if err != nil {
 		t.Fatalf("Error when parsing the string: %d", err)
 	}
-	got := links
 	want := []Link{
 		Link{
 			Href: "/dog-cat",
