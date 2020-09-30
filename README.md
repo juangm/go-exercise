@@ -15,8 +15,8 @@
 - [x] [go-adventure](go-adventure/README.md)
 - [x] [go-katas](go-katas/README.md)
 - [x] [go-htmlParser](go-htmlParser/README.md)
-- [ ] go-sitemapBuild
-- [ ] go-hackerRank(go-hackerRank/README.md)
+- [ ] [go-sitemapBuild](go-sitemapBuild/README.md)
+- [ ] [go-hackerRank](go-hackerRank/README.md)
 - [ ] go-cliTask
 - [ ] go-phoneNumber
 - [ ] go-cards
