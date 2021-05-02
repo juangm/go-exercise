@@ -37,7 +37,7 @@ func hrefs(body io.Reader, base string) []string {
 		case strings.HasPrefix(l.Href, "http"):
 			ret = append(ret, l.Href)
 		default:
-			// fmt.Println("Not taking the URL: ", l.Href)
+			fmt.Println("Not taking the URL: ", l.Href)
 		}
 	}
 	return ret
